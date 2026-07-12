@@ -6,7 +6,7 @@ subtitle: Postdoctoral Researcher
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: mypic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Informatics</p>
