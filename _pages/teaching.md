@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /teaching_old/
 title: teaching
 description: Course materials, schedules, and resources for classes taught.
 nav: false
