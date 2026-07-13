@@ -8,7 +8,7 @@ nav_order: 5
 
 ### Courses
 
-**Reinforcement Learning and Decision Making Under Uncertainty**, University of Oslo (UiO)
+[**Reinforcement Learning and Decision Making Under Uncertainty**](https://www.uio.no/studier/emner/matnat/ifi/IN-STK5100/), University of Oslo (UiO)
 - Spring 2023 - Teaching Assistant
 - Spring 2022 - Grading
 
