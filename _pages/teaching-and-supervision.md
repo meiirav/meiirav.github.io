@@ -15,6 +15,8 @@ nav_order: 5
 **Introduction to Computer Science**, The Hebrew University of Jerusalem
 - Fall 2017 - Teaching Assistant
 
+
+
 ### Student Supervision
 
 **Current**
