@@ -25,5 +25,5 @@ nav_order: 5
 **Past**
 - MSc thesis - *DiscreteRecourseNet: End-to-End Actionable Recourse in Discrete Action Spaces*, 2026
 - BSc thesis - *Integrating Behavioural Preferences into Ride-Hailing Simulations for Evaluating Regional Safety and Fairness*, 2026
-- MSc thesis - [*College Admissions with Quotas and Bonus Points*](https://api.nva.unit.no/publication/019c94859535-da26d98d-2956-455e-bef2-571a75d5e713), 2024
+- MSc thesis - *College Admissions with Quotas and Bonus Points*, 2024
 
