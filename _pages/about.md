@@ -27,7 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 I am a postdoctoral researcher at the [Social Computing Group](https://www.ifi.uzh.ch/en/scg.html), Department of Informatics, University of Zurich (UZH), mentored by [Prof. Anikó Hannák](https://www.ifi.uzh.ch/en/scg/people/hannak.html).
+
 I hold a PhD from the Department of Informatics at the University of Oslo (UiO), where I was advised by Prof. Christos Dimitrakakis, Anne-Marie George (Senior Lecturer), and Prof. Ingrid Chieh Yu.
+
 My research interests include algorithmic fairness in dynamic processes and robust algorithmic recourse.
 
 My postdoctoral research is supported by [NCCR Automation](https://nccr-automation.ch/), the Swiss National Centre of Competence in Research on Dependable, Ubiquitous Automation, funded by the Swiss National Science Foundation.
