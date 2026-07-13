@@ -16,7 +16,9 @@
   year      = {2026},
   note      = {*Equal contribution. Preprint, with Irregular},
   html      = {https://arxiv.org/pdf/2602.15689},
-  abbr      = {Preprint}
+  abbr      = {Preprint},
+  abstract  = {Large language models and LLM-based agents are increasingly used for cybersecurity tasks that are inherently dual-use. Existing approaches to refusal, spanning academic policy frameworks and commercially deployed systems, often rely on broad topic-based bans or offensive-focused taxonomies. As a result, they can yield inconsistent decisions, over-restrict legitimate defenders, and behave brittlely under obfuscation or request segmentation. We argue that effective refusal requires explicitly modeling the trade-off between offensive risk and defensive benefit, rather than relying solely on intent or offensive classification. In this paper, we introduce a content-based framework for designing and auditing cyber refusal policies that makes offense-defense tradeoffs explicit. The framework characterizes requests along five dimensions: Offensive Action Contribution, Offensive Risk, Technical Complexity, Defensive Benefit, and Expected Frequency for Legitimate Users, grounded in the technical substance of the request rather than stated intent. We demonstrate that this content-grounded approach resolves inconsistencies in current frontier model behavior and allows organizations to construct tunable, risk-aware refusal policies.
+}
 }
 
 @article{dalal2025llm,
@@ -25,7 +27,9 @@
   year      = {2025},
   note      = {Preprint},
   html       = {https://arxiv.org/pdf/2505.12938},
-  abbr      = {Preprint}
+  abbr      = {Preprint},
+  abstract  = {Large language models (LLMs) achieve impressive abilities in numerous domains, but exhibit inconsistent performance in response to minor input changes. Rather than view this as a drawback, in this paper we introduce a novel method for leveraging models' inconsistency to boost Pass@k performance. Specifically, we present a "Variator" agent that generates k variants of a given task and submits one candidate solution for each one. Our variant generation approach is applicable to a wide range of domains as it is task agnostic and compatible with free-form inputs. We demonstrate the efficacy of our agent theoretically using a probabilistic model of the inconsistency effect, and show empirically that it outperforms the baseline on the APPS dataset. Furthermore, we establish that inconsistency persists even in frontier reasoning models across coding and cybersecurity domains, suggesting our method is likely to remain relevant for future model generations.
+}
 }
 
 @inproceedings{gekker2024evaluation,
@@ -34,7 +38,9 @@
   booktitle = {Frontier AI Safety Framework Conference (FAISC)},
   year      = {2024},
   html       = {https://arxiv.org/pdf/2503.23424},
-  abbr      = {FAISC}
+  abbr      = {FAISC},
+  abstract  = {Following the rapid increase in Artificial Intelligence (AI) capabilities in recent years, the AI community has voiced concerns regarding possible safety risks. To support decision-making on the safe use and development of AI systems, there is a growing need for high-quality evaluations of dangerous model capabilities. While several attempts to provide such evaluations have been made, a clear definition of what constitutes a "good evaluation" has yet to be agreed upon. In this practitioners' perspective paper, we present a set of best practices for safety evaluations, drawing on prior work in model evaluation and illustrated through cybersecurity examples. We first discuss the steps of the initial thought process, which connects threat modeling to evaluation design. Then, we provide the characteristics and parameters that make an evaluation useful. Finally, we address additional considerations as we move from building specific evaluations to building a full and comprehensive evaluation suite.
+}
 }
 
 @inproceedings{segal2024threshold,
@@ -43,7 +49,8 @@
   booktitle = {European Workshop on Algorithmic Fairness (EWAF)},
   year      = {2024},
   html       = {https://ceur-ws.org/Vol-3908/paper_57.pdf},
-  abbr      = {EWAF}
+  abbr      = {EWAF},
+  abstract  = {In this paper, we focus on recourse for the setting of dynamic sequential allocations with limited resources, in which agents are competing against each other. In particular, we assume the decision maker is using a threshold policy and demonstrate the problem of recourse invalidation under the use case of college admissions. We then provide a first attempt to generate a valid threshold recourse that takes into account the feedback effect of recourse implementation.}
 }
 
 @inproceedings{segal2023bonus,
@@ -62,7 +69,9 @@
   year      = {2024},
   html       = {https://drive.google.com/file/d/1OUlFrZKpSfaZe8iOghnokrTpCNCGqQ7I/view},
   note      = {Earlier version in NeurIPS Workshop on XAI in Action: Past, Present, and Future Applications, 2023},
-  abbr      = {xAI}
+  abbr      = {xAI},
+  abstract  = {In this work, we present the problem of algorithmic recourse for the setting of binary allocation problems. In this setting, the optimal allocation does not depend only on the prediction model and the individual’s features, but also on the current available resources, utility function used by the decision maker and other individuals currently applying for the resource. We provide a method for generating counterfactual explanations under separable utilities that are monotonically increasing with prediction scores. Here, we assume that we can translate probabilities of “success” together with some other parameters into utility, such that the problem can be phrased as a knapsack problem and solved by known allocation policies: optimal 0–1 knapsack and greedy. We use the two policies respectively in the use cases of loans and college admissions. Moreover, we address the problem of recourse invalidation due to changes in allocation variables, under an unchanged prediction model, by presenting a method for robust recourse under variables’ distributions. Finally, we empirically compare our method with perturbation-robust recourse and show that our method can provide higher validity at a lower cost.
+}
 }
 
 @inproceedings{segal2023policy,
@@ -72,7 +81,9 @@
   year      = {2023},
   html       = {https://dl.acm.org/doi/10.1145/3617694.3623262},
   note      = {Earlier version in ICML Workshop on Responsible Decision Making in Dynamic Environments, 2022},
-  abbr      = {EAAMO}
+  abbr      = {EAAMO},
+  abstract  = {This work considers a dynamic decision making framework for allocating opportunities over time to advantaged and disadvantaged individuals, focusing on the example of college admissions. Here, individuals in the disadvantaged group are assumed to experience a societal bias that limits their success probability. Bias dynamics dictate how the societal bias changes based on the current allocation of opportunities. We model this environment as a Markov Decision Process (MDP) and empirically examine the purely utility maximising policy in terms of fairness. We demonstrate the influence of the bias dynamics on long-term fairness of allocations, and analyse the interplay between utility and policy-fairness for different dynamics under different optimisation parameters. We consider the cases of known and unknown bias dynamics. For known dynamics, we show that a short horizon view presents fairness as a trade-off for utility, but a long horizon view reveals that the two are aligned. Moreover, we suggest that when the dynamics are unknown, the approach towards epistemic uncertainty may also affect fairness, and should be considered when designing fair decision making models.
+}
 }
 
 @inproceedings{kleinebuning2022meritocracy,
@@ -82,7 +93,9 @@
   year      = {2022},
   html       = {https://dl.acm.org/doi/abs/10.1145/3551624.3555305},
   note      = {Best Paper with Student Presenter},
-  abbr      = {EAAMO}
+  abbr      = {EAAMO},
+  abstract  = {Typically, merit is defined with respect to some intrinsic measure of worth. We instead consider a setting where an individual’s worth is relative: when a decision maker (DM) selects a set of individuals from a population to maximise expected utility, it is natural to consider the expected marginal contribution (EMC) of each person to the utility. We show that this notion satisfies an axiomatic definition of fairness for this setting. We also show that for certain policy structures, this notion of fairness is aligned with maximising expected utility, while for linear utility functions it is identical to the Shapley value. However, for certain natural policies, such as those that select individuals with a specific set of attributes (e.g. high enough test scores for college admissions), there is a trade-off between meritocracy and utility maximisation. We analyse the effect of constraints on the policy on both utility and fairness in an extensive experiments based on college admissions and outcomes in Norwegian universities.
+}
 }
 
 @inproceedings{segal2022simulating,
@@ -91,7 +104,8 @@
   booktitle = {Norwegian AI Society Symposium (NAIS)},
   year      = {2022},
   html       = {https://link.springer.com/chapter/10.1007/978-3-031-17030-0_11},
-  abbr      = {NAIS}
+  abbr      = {NAIS},
+  abstract  = {This paper describes the design of a simulator (work in progress), that is based on Norwegian university admissions and exam data. It generates a realistic population of applicants to university programs, their preferences and study outcomes if they were admitted to the different study programs. This simulator is a versatile tool and can be used to analyse the current admission policy for Norwegian universities in terms of many fairness criteria that, eg, take into account student preferences, gender balance, university preferences and study outcomes. More generally, it creates a benchmark for testing matching algorithms and fairness notions without revealing sensitive data.}
 }
 
 @inproceedings{lieder2019segmentation,
@@ -100,5 +114,7 @@
   booktitle = {IEEE International Conference on Big Data},
   year      = {2019},
   html       = {https://ieeexplore.ieee.org/abstract/document/9006589},
-  abbr      = {BigData}
+  abbr      = {BigData},
+  abstract  = {For sales and marketing organizations within large enterprises, identifying and understanding new markets, customers and partners is a key challenge. Intel's Sales and Marketing Group (SMG) faces similar challenges while growing in new markets and domains and evolving its existing business. In today's complex technological and commercial landscape, there is need for intelligent automation supporting a fine-grained understanding of businesses in order to help SMG sift through millions of companies across many geographies and languages and identify relevant directions. We present a system developed in our company that mines millions of public business web pages, and extracts a faceted customer representation. We focus on two key customer aspects that are essential for finding relevant opportunities: industry segments (ranging from broad verticals such as healthcare, to more specific fields such as “video analytics”) and functional roles (e.g., “manufacturer” or “retail”). To address the challenge of labeled data collection, we enrich our data with external information gleaned from Wikipedia, and develop a semi-supervised multi-label, multi-lingual deep learning model that parses customer website texts and classifies them into their respective facets. Our system scans and indexes companies as part of a large-scale knowledge graph that currently holds tens of millions of connected entities with thousands being fetched, enriched and connected to the graph by the hour in real time, and also supports knowledge and insight discovery. In experiments conducted in our company, we are able to significantly boost the performance of sales personnel in the task of discovering new customers and commercial partnership opportunities.
+}
 }
