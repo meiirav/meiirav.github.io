@@ -11,7 +11,7 @@ nav_order: 6
 
 ### Reviewing
 **Journals**
-- [The Journal of Artificial Intelligence Research (JAIR)](www.jair.org) (2026)
+- [The Journal of Artificial Intelligence Research (JAIR)](https://www.jair.org/index.php/jair) (2026)
 
 **Conferences & Workshops**
 - [EAAMO 2026](https://conference2026.eaamo.org/)
