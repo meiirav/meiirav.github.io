@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-31'
 papers:
   -4VS11cAAAAJ:3fE2CSJIrl8C:
     citations: 6
@@ -46,7 +46,7 @@ papers:
     title: Robust recourse for binary allocation problems
     year: '2023'
   -4VS11cAAAAJ:qjMakFHDy7sC:
-    citations: 6
+    citations: 7
     title: On Meritocracy in Optimal Set Selection
     year: '2022'
   -4VS11cAAAAJ:u-x6o8ySG0sC:
