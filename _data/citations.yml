@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-07'
 papers:
   -4VS11cAAAAJ:3fE2CSJIrl8C:
     citations: 6
@@ -38,7 +38,7 @@ papers:
     title: Threshold Recourse for Dynamic Allocations.
     year: '2024'
   -4VS11cAAAAJ:_kc_bZDykSQC:
-    citations: 4
+    citations: 5
     title: Leveraging LLM Inconsistency to Boost Pass@ k Performance
     year: '2025'
   -4VS11cAAAAJ:kNdYIx-mwKoC:
